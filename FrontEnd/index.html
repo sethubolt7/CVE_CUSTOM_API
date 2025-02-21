@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch and Display CVE Records</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <h2>Fetch CVE Records</h2>
+
+    <div>
+        <button onclick="fetchApi()">Fetch and Store</button>
+        <button onclick="getCvesByYear()">Fetch by Year</button>
+        <button onclick="getCvesScoreAbove()">Fetch by Score</button>
+        <button onclick="getCvesModifiedDaysAgo()">Last Modified</button>
+    </div>
+
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>CVE ID</th>
+                <th>IDENTIFIER</th>
+                <th>PUBLISHED DATE</th>
+                <th>LAST MODIFIED DATE</th>
+                <th>STATUS</th>
+                <th>SCORE</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+</body>
+
+</html>
