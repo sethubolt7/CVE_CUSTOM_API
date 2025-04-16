@@ -26,7 +26,7 @@ A high-performance backend built with **Spring Boot**, **JPA**, and **H2** to ma
 ### 📸 Output Screen
 
 <p align="center">
-  <img src="demo/demo.png" width="100%"/>
+  <img src="Demo/demo.png" width="100%"/>
 </p>
 
 ---
