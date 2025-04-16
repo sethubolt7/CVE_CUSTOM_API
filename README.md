@@ -23,7 +23,13 @@ A high-performance backend built with **Spring Boot**, **JPA**, and **H2** to ma
 - Rapid prototyping with CVE datasets
 
 ---
+### 📸 Output Screen
 
+<p align="center">
+  <img src="demo/demo.png" width="100%"/>
+</p>
+
+---
 Want to explore or extend CVE data capabilities? Start here.
 
 > Built with performance, structure, and clarity in mind.
